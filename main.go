@@ -6,7 +6,7 @@ func main() {
 	r := gin.Default()
 	r.GET("", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Hello from PipeOps.io",
+			"message": "Hello from PipeOps Golang",
 		})
 	})
 	r.GET("/ping", func(c *gin.Context) {
